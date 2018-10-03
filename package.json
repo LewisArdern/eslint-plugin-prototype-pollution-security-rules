@@ -1,0 +1,27 @@
+{
+  "name": "eslint-plugin-prototype-pollution-security-rules",
+  "version": "1.0.4",
+  "description": "Detect the use of vulnerable features within some libraries from https://github.com/HoLyVieR/prototype-pollution-nsec18/ that are not yet fixed",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --recursive tests/rules"
+  },
+  "keywords": [
+    "security",
+    "prototype pollution",
+    "eslint",
+    "merge",
+    "deepExtend",
+    "merge.recursive"
+  ],
+  "author": "Lewis Ardern",
+  "license": "MIT",
+  "dependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.6.1",
+    "requireindex": "^1.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
